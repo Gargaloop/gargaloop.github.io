@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Política de Privacidade</title>
-  <meta name="description" content="Política de privacidade do Gargaloop Publicador.">
+  <meta name="description" content="Política de privacidade do Gargaloop Publicador (YouTube, Instagram e TikTok).">
   <link rel="icon" href="logo.png">
   <link rel="stylesheet" href="estilo.css">
 </head>
@@ -14,24 +14,32 @@
     <img src="logo.png" alt="Mascote Gargaloop">
     <div>
       <h1>Política de Privacidade</h1>
-      <div class="suave">Gargaloop Publicador · última atualização: 10/11/2026</div>
+      <div class="suave">Gargaloop Publicador · última atualização: 14/11/2026</div>
     </div>
   </header>
   <nav><a href="index.html">Início</a><a href="#english">English version</a><a href="termos.html">Termos de uso</a></nav>
 
-  <p>O <strong>Gargaloop Publicador</strong> é uma ferramenta interna do projeto Gargaloop. Ela usa os
-    <strong>Serviços de API do YouTube</strong> para enviar vídeos aos canais do próprio projeto e ler as estatísticas
-    desses canais. Ao usar a ferramenta, você concorda com os
-    <a href="https://www.youtube.com/t/terms">Termos de Serviço do YouTube</a>. O tratamento de dados pelo Google é regido pela
-    <a href="https://policies.google.com/privacy">Política de Privacidade do Google</a>.</p>
+  <p>O <strong>Gargaloop Publicador</strong> é uma ferramenta interna do projeto Gargaloop. Ela envia os vídeos de humor
+    aprovados pelo próprio projeto às contas do projeto no YouTube, no Instagram e no TikTok, sempre depois de aprovação manual.</p>
+  <ul>
+    <li><strong>YouTube:</strong> usa os <strong>Serviços de API do YouTube</strong> para enviar vídeos aos canais do projeto e ler as
+      estatísticas desses canais. Ao usar a ferramenta, você concorda com os
+      <a href="https://www.youtube.com/t/terms">Termos de Serviço do YouTube</a>. O tratamento de dados pelo Google é regido pela
+      <a href="https://policies.google.com/privacy">Política de Privacidade do Google</a>.</li>
+    <li><strong>Instagram:</strong> usa a API do Instagram (Meta) para publicar reels na conta profissional do projeto. O tratamento de
+      dados pela Meta é regido pela <a href="https://privacycenter.instagram.com/policy">Política de Privacidade do Instagram</a>.</li>
+    <li><strong>TikTok:</strong> usa o Login Kit e a Content Posting API do TikTok para enviar vídeos à conta do projeto como
+      <em>rascunho</em>; a publicação final é feita manualmente no aplicativo do TikTok. O tratamento de dados pelo TikTok é regido pela
+      <a href="https://www.tiktok.com/legal/privacy-policy">Política de Privacidade do TikTok</a>.</li>
+  </ul>
 
   <h2>Quais dados acessamos</h2>
   <ul>
-    <li>Dados básicos do canal autorizado: ID, nome e @.</li>
-    <li>Os vídeos que nós mesmos enviamos, com título, descrição, tags e configurações de privacidade.</li>
+    <li>Dados básicos da conta ou canal autorizado: ID, nome, @ e foto de perfil (no TikTok, pelo escopo <code>user.info.basic</code>).</li>
+    <li>Os vídeos que nós mesmos enviamos, com título, legenda, descrição, tags e configurações de privacidade (no TikTok, pelo escopo <code>video.upload</code>).</li>
     <li>Estatísticas dos nossos vídeos e canais (visualizações, retenção, inscritos), pela API do YouTube Analytics.</li>
   </ul>
-  <p>Não acessamos dados de espectadores, comentários de terceiros nem canais que não sejam do projeto.</p>
+  <p>Não acessamos dados de espectadores ou seguidores, comentários de terceiros, mensagens diretas nem contas que não sejam do projeto.</p>
 
   <h2>Como usamos</h2>
   <p>Só para publicar os nossos próprios vídeos e acompanhar o desempenho deles. Não usamos os dados para publicidade,
@@ -39,7 +47,7 @@
 
   <h2>Armazenamento e compartilhamento</h2>
   <ul>
-    <li>Os tokens de acesso ficam só no computador do projeto, guardados no Keychain do macOS (armazenamento criptografado do sistema).</li>
+    <li>Os tokens de acesso (Google, Meta e TikTok) ficam só no computador do projeto, guardados no Keychain do macOS (armazenamento criptografado do sistema).</li>
     <li>As estatísticas são registradas numa planilha local do projeto, sem servidor externo.</li>
     <li>Não vendemos, não compartilhamos e não transferimos esses dados a terceiros.</li>
   </ul>
@@ -48,7 +56,9 @@
   <p>As estatísticas ficam guardadas enquanto o projeto estiver ativo e são atualizadas a cada 30 dias, no máximo, como pedem as
     políticas da API do YouTube. Para revogar o acesso da ferramenta a qualquer momento, acesse
     <a href="https://security.google.com/settings/security/permissions">as configurações de segurança da Conta Google</a>.
-    Os dados armazenados localmente são apagados em até 7 dias após a revogação ou mediante pedido pelo e-mail abaixo.</p>
+    No Instagram, o acesso pode ser removido em <a href="https://www.instagram.com/accounts/manage_access/">Apps e sites</a>; no TikTok,
+    em Configurações e privacidade › Segurança e permissões › Permissões de apps. Os dados armazenados localmente são apagados em até 7 dias
+    após a revogação ou mediante pedido pelo e-mail abaixo.</p>
 
   <h2>Cookies</h2>
   <p>Este site e a ferramenta não usam cookies nem rastreadores.</p>
@@ -60,27 +70,35 @@
 
   <section id="english" lang="en">
     <h1>Privacy Policy</h1>
-    <p class="suave">Gargaloop Publicador · last updated: November 10, 2026</p>
+    <p class="suave">Gargaloop Publicador · last updated: November 14, 2026</p>
 
-    <p><strong>Gargaloop Publicador</strong> is an internal tool of the Gargaloop project. It uses the
-      <strong>YouTube API Services</strong> to upload videos to the project's own channels and to read those channels'
-      statistics. By using it you agree to be bound by the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>.
-      Google's handling of data is described in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+    <p><strong>Gargaloop Publicador</strong> is an internal tool of the Gargaloop project. It sends the project's own approved
+      comedy videos to the project's own YouTube, Instagram and TikTok accounts, always after manual approval.</p>
+    <ul>
+      <li><strong>YouTube:</strong> uses the <strong>YouTube API Services</strong> to upload videos to the project's channels and read
+        those channels' statistics. By using it you agree to be bound by the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>.
+        Google's handling of data is described in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</li>
+      <li><strong>Instagram:</strong> uses the Instagram API (Meta) to publish reels to the project's professional account. Meta's handling
+        of data is described in the <a href="https://privacycenter.instagram.com/policy">Instagram Privacy Policy</a>.</li>
+      <li><strong>TikTok:</strong> uses TikTok Login Kit and the Content Posting API to send videos to the project's account as
+        <em>drafts</em>; final posting is done manually in the TikTok app. TikTok's handling of data is described in the
+        <a href="https://www.tiktok.com/legal/privacy-policy">TikTok Privacy Policy</a>.</li>
+    </ul>
 
     <h2>Data we access</h2>
     <ul>
-      <li>Basic data of the authorized channel: ID, title and handle.</li>
-      <li>Videos we upload ourselves, with their title, description, tags and privacy settings.</li>
+      <li>Basic data of the authorized account or channel: ID, name, handle and profile picture (on TikTok, via the <code>user.info.basic</code> scope).</li>
+      <li>Videos we upload ourselves, with their title, caption, description, tags and privacy settings (on TikTok, via the <code>video.upload</code> scope).</li>
       <li>Statistics for our own videos and channels (views, retention, subscribers) through the YouTube Analytics API.</li>
     </ul>
-    <p>We do not access viewer data, third-party comments or any channel that does not belong to the project.</p>
+    <p>We do not access viewer or follower data, third-party comments, direct messages or any account that does not belong to the project.</p>
 
     <h2>How we use it</h2>
     <p>Only to publish our own videos and track their performance. We do not use the data for advertising, profiling or any other purpose.</p>
 
     <h2>Storage and sharing</h2>
     <ul>
-      <li>Access tokens are stored only on the project's computer, in the macOS Keychain (the system's encrypted storage).</li>
+      <li>Access tokens (Google, Meta and TikTok) are stored only on the project's computer, in the macOS Keychain (the system's encrypted storage).</li>
       <li>Statistics are recorded in a local project spreadsheet, with no external server.</li>
       <li>We do not sell, share or transfer this data to any third party.</li>
     </ul>
@@ -89,7 +107,8 @@
     <p>Statistics are kept while the project is active and refreshed at least every 30 days, as the YouTube API policies require.
       You can revoke the tool's access at any time through
       <a href="https://security.google.com/settings/security/permissions">Google Account security settings</a>.
-      Locally stored data is deleted within 7 days of revocation, or on request by email.</p>
+      On Instagram, access can be removed under <a href="https://www.instagram.com/accounts/manage_access/">Apps and websites</a>; on TikTok,
+      under Settings and privacy › Security and permissions › App permissions. Locally stored data is deleted within 7 days of revocation, or on request by email.</p>
 
     <h2>Cookies</h2>
     <p>This site and the tool do not use cookies or trackers.</p>
